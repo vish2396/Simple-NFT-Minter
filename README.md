@@ -42,10 +42,11 @@ If you have state that's important to retain within a component, consider creati
 ```js
 // store.js
 
-To run your app, run the following command:
-
-npm run dev
 // An extremely simple external store
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+
+To run your app, run the following command:
+
+npm run dev
